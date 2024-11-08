@@ -31,7 +31,8 @@ require('./models/mongo/site');
 mongoose.Promise = global.Promise;
 
 const connectOptions = {
-  useMongoClient: true,
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
   autoIndex: false, // Don't build indexes
   reconnectTries: Number.MAX_VALUE, // Never stop trying to reconnect
   reconnectInterval: 500, // Reconnect every 500ms
