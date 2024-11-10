@@ -55,7 +55,7 @@ To build this sample locally, you can either build using Docker, or using NPM.
 
 Required configuration via environment variables:
 
-- MONGODB_URI: MongoDB connection is configured using an environment variable called `MONGODB_URI`. This URI should look like `mongodb://[username]:[password]@[endpoint]:27017/ratingsdb`
+- MONGODB_URI: MongoDB connection is configured using an environment variable called `MONGODB_URI`. This URI should look like `MONGO_URI="mongodb+srv://<username>:<password>@<cluster-address>/ratingsdb?retryWrites=true&w=majority"`
 
 The API exposes port 3000.
 
