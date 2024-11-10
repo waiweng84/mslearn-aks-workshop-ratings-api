@@ -8,7 +8,7 @@ description: "This code is part of the Microsoft Learn module of the AKS worksho
 urlFragment: "aksworkshop-ratings-api"
 ---
 
-# AKS Workshop - ratings-api sample code
+# AKS Workshop - ratings-api sample code writeup
 
 <!-- 
 Guidelines on README format: https://review.docs.microsoft.com/help/onboard/admin/samples/concepts/readme-template?branch=master
@@ -18,7 +18,7 @@ Guidance on onboarding samples to docs.microsoft.com/samples: https://review.doc
 Taxonomies for products and languages: https://review.docs.microsoft.com/new-hope/information-architecture/metadata/taxonomies?branch=master
 -->
 
-This code is part of the Microsoft Learn module of the AKS workshop. It provides the API for the ratings application. The API connects to a MongoDB to store and retrieve data.
+This code is part of the Microsoft Learn module of the AKS workshop. It provides the API for the ratings application. The API connects to a MongoDB to store and retrieve sample data.
 
 ## Contents
 
